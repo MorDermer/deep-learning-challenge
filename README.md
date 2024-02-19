@@ -29,11 +29,11 @@ The column or variable that can be removed is EIN as it is an identifier for the
 
 
 4) How many neurons, layers, and activation functions did you select for your neural network model, and why?
-In the Optimized version of the model, I used 3 hidden layers each with multiple neurons which increased the accuracy to <75% to 78%. The Initial model had only 2 layers. Although the number of epochs did not change between the Initial and the Optimized Model, adding a 3rd Layer increased the accuracy of the model.
+In the Optimized version of the model, I used 3 hidden layers each with multiple neurons which increased the accuracy to <73% to 78%. The Initial model had only 2 layers. Although the number of epochs did not change between the Initial and the Optimized Model, adding a 3rd Layer increased the accuracy of the model.
 
 
 5) Were you able to achieve the target model performance?
-Yes by optimizing the model, I was able to increase the accuracy from 72% a over 78%.
+Yes by optimizing the model, I was able to increase the accuracy from 73% a over 78%.
 
 6) What steps did you take in your attempts to increase model performance?
 - The following steps were taken to optimize and increase the performance of the model:
@@ -55,5 +55,6 @@ This means we are able to correctly classify each of the points in the test data
 The NAME of the applicant appears more than 5 times (they have applied more than 5 times)
 The type of APPLICATION is one of the following: T3, T4, T5, T6 and T19
 The application has the following values for CLASSIFICATION: C1000, C1200, C2000,C2100 and C3000.
-Alternative Method
 
+Alternative Method
+Although this model worked very well and provided a great deal of accuracy, an alternative approach to recommend is the Random Forest model as it is also suited for classification problems. Using the Random Forest model we can achieve close to 78% accuracy.
